@@ -15,7 +15,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '94@41@yre*ubibobtr_mct4aw$ucc6!*6l4)bu5m53n96ds#%5'
+SECRET_KEY = 'e@3=0i!#n4l25r*ul*sbx6b$@gh7a6pjee6lr-slw9!ayj#*@f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -81,6 +81,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-LOGIN_URL = '/login/'
 
+TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'mysite/templates'), )
+LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
